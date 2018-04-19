@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F96204282089129E00B96BD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96204272089129E00B96BD8 /* AppDelegate.swift */; };
+		F962042A2089129E00B96BD8 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F96204292089129E00B96BD8 /* art.scnassets */; };
+		F962042C2089129E00B96BD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F962042B2089129E00B96BD8 /* ViewController.swift */; };
+		F962042F2089129E00B96BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F962042D2089129E00B96BD8 /* Main.storyboard */; };
+		F96204312089129F00B96BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96204302089129F00B96BD8 /* Assets.xcassets */; };
+		F96204342089129F00B96BD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96204322089129F00B96BD8 /* LaunchScreen.storyboard */; };
+		F962043F2089129F00B96BD8 /* HappyMeals2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F962043E2089129F00B96BD8 /* HappyMeals2Tests.swift */; };
+		F962044A208912A000B96BD8 /* HappyMeals2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9620449208912A000B96BD8 /* HappyMeals2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F962043B2089129F00B96BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F962041C2089129E00B96BD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F96204232089129E00B96BD8;
+			remoteInfo = HappyMeals2;
+		};
+		F9620446208912A000B96BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F962041C2089129E00B96BD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F96204232089129E00B96BD8;
+			remoteInfo = HappyMeals2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F96204242089129E00B96BD8 /* HappyMeals2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyMeals2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96204272089129E00B96BD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F96204292089129E00B96BD8 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		F962042B2089129E00B96BD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F962042E2089129E00B96BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F96204302089129F00B96BD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F96204332089129F00B96BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F96204352089129F00B96BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F962043A2089129F00B96BD8 /* HappyMeals2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyMeals2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F962043E2089129F00B96BD8 /* HappyMeals2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyMeals2Tests.swift; sourceTree = "<group>"; };
+		F9620440208912A000B96BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9620445208912A000B96BD8 /* HappyMeals2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyMeals2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9620449208912A000B96BD8 /* HappyMeals2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyMeals2UITests.swift; sourceTree = "<group>"; };
+		F962044B208912A000B96BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F96204212089129E00B96BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96204372089129F00B96BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9620442208912A000B96BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F962041B2089129E00B96BD8 = {
+			isa = PBXGroup;
+			children = (
+				F96204262089129E00B96BD8 /* HappyMeals2 */,
+				F962043D2089129F00B96BD8 /* HappyMeals2Tests */,
+				F9620448208912A000B96BD8 /* HappyMeals2UITests */,
+				F96204252089129E00B96BD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F96204252089129E00B96BD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F96204242089129E00B96BD8 /* HappyMeals2.app */,
+				F962043A2089129F00B96BD8 /* HappyMeals2Tests.xctest */,
+				F9620445208912A000B96BD8 /* HappyMeals2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F96204262089129E00B96BD8 /* HappyMeals2 */ = {
+			isa = PBXGroup;
+			children = (
+				F96204272089129E00B96BD8 /* AppDelegate.swift */,
+				F96204292089129E00B96BD8 /* art.scnassets */,
+				F962042B2089129E00B96BD8 /* ViewController.swift */,
+				F962042D2089129E00B96BD8 /* Main.storyboard */,
+				F96204302089129F00B96BD8 /* Assets.xcassets */,
+				F96204322089129F00B96BD8 /* LaunchScreen.storyboard */,
+				F96204352089129F00B96BD8 /* Info.plist */,
+			);
+			path = HappyMeals2;
+			sourceTree = "<group>";
+		};
+		F962043D2089129F00B96BD8 /* HappyMeals2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F962043E2089129F00B96BD8 /* HappyMeals2Tests.swift */,
+				F9620440208912A000B96BD8 /* Info.plist */,
+			);
+			path = HappyMeals2Tests;
+			sourceTree = "<group>";
+		};
+		F9620448208912A000B96BD8 /* HappyMeals2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9620449208912A000B96BD8 /* HappyMeals2UITests.swift */,
+				F962044B208912A000B96BD8 /* Info.plist */,
+			);
+			path = HappyMeals2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F96204232089129E00B96BD8 /* HappyMeals2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F962044E208912A000B96BD8 /* Build configuration list for PBXNativeTarget "HappyMeals2" */;
+			buildPhases = (
+				F96204202089129E00B96BD8 /* Sources */,
+				F96204212089129E00B96BD8 /* Frameworks */,
+				F96204222089129E00B96BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyMeals2;
+			productName = HappyMeals2;
+			productReference = F96204242089129E00B96BD8 /* HappyMeals2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F96204392089129F00B96BD8 /* HappyMeals2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9620451208912A000B96BD8 /* Build configuration list for PBXNativeTarget "HappyMeals2Tests" */;
+			buildPhases = (
+				F96204362089129F00B96BD8 /* Sources */,
+				F96204372089129F00B96BD8 /* Frameworks */,
+				F96204382089129F00B96BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F962043C2089129F00B96BD8 /* PBXTargetDependency */,
+			);
+			name = HappyMeals2Tests;
+			productName = HappyMeals2Tests;
+			productReference = F962043A2089129F00B96BD8 /* HappyMeals2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9620444208912A000B96BD8 /* HappyMeals2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9620454208912A000B96BD8 /* Build configuration list for PBXNativeTarget "HappyMeals2UITests" */;
+			buildPhases = (
+				F9620441208912A000B96BD8 /* Sources */,
+				F9620442208912A000B96BD8 /* Frameworks */,
+				F9620443208912A000B96BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9620447208912A000B96BD8 /* PBXTargetDependency */,
+			);
+			name = HappyMeals2UITests;
+			productName = HappyMeals2UITests;
+			productReference = F9620445208912A000B96BD8 /* HappyMeals2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F962041C2089129E00B96BD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Cristopher Alan Cejudo Machuca";
+				TargetAttributes = {
+					F96204232089129E00B96BD8 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					F96204392089129F00B96BD8 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F96204232089129E00B96BD8;
+					};
+					F9620444208912A000B96BD8 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F96204232089129E00B96BD8;
+					};
+				};
+			};
+			buildConfigurationList = F962041F2089129E00B96BD8 /* Build configuration list for PBXProject "HappyMeals2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F962041B2089129E00B96BD8;
+			productRefGroup = F96204252089129E00B96BD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F96204232089129E00B96BD8 /* HappyMeals2 */,
+				F96204392089129F00B96BD8 /* HappyMeals2Tests */,
+				F9620444208912A000B96BD8 /* HappyMeals2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F96204222089129E00B96BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F962042A2089129E00B96BD8 /* art.scnassets in Resources */,
+				F96204342089129F00B96BD8 /* LaunchScreen.storyboard in Resources */,
+				F96204312089129F00B96BD8 /* Assets.xcassets in Resources */,
+				F962042F2089129E00B96BD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96204382089129F00B96BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9620443208912A000B96BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F96204202089129E00B96BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F962042C2089129E00B96BD8 /* ViewController.swift in Sources */,
+				F96204282089129E00B96BD8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96204362089129F00B96BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F962043F2089129F00B96BD8 /* HappyMeals2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9620441208912A000B96BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F962044A208912A000B96BD8 /* HappyMeals2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F962043C2089129F00B96BD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F96204232089129E00B96BD8 /* HappyMeals2 */;
+			targetProxy = F962043B2089129F00B96BD8 /* PBXContainerItemProxy */;
+		};
+		F9620447208912A000B96BD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F96204232089129E00B96BD8 /* HappyMeals2 */;
+			targetProxy = F9620446208912A000B96BD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F962042D2089129E00B96BD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F962042E2089129E00B96BD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F96204322089129F00B96BD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F96204332089129F00B96BD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F962044C208912A000B96BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F962044D208912A000B96BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F962044F208912A000B96BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV5U9VUZ6X;
+				INFOPLIST_FILE = HappyMeals2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CristopherCejudo.HappyMeals2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9620450208912A000B96BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV5U9VUZ6X;
+				INFOPLIST_FILE = HappyMeals2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CristopherCejudo.HappyMeals2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9620452208912A000B96BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV5U9VUZ6X;
+				INFOPLIST_FILE = HappyMeals2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CristopherCejudo.HappyMeals2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyMeals2.app/HappyMeals2";
+			};
+			name = Debug;
+		};
+		F9620453208912A000B96BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV5U9VUZ6X;
+				INFOPLIST_FILE = HappyMeals2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CristopherCejudo.HappyMeals2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyMeals2.app/HappyMeals2";
+			};
+			name = Release;
+		};
+		F9620455208912A000B96BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV5U9VUZ6X;
+				INFOPLIST_FILE = HappyMeals2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CristopherCejudo.HappyMeals2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HappyMeals2;
+			};
+			name = Debug;
+		};
+		F9620456208912A000B96BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LV5U9VUZ6X;
+				INFOPLIST_FILE = HappyMeals2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CristopherCejudo.HappyMeals2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HappyMeals2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F962041F2089129E00B96BD8 /* Build configuration list for PBXProject "HappyMeals2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F962044C208912A000B96BD8 /* Debug */,
+				F962044D208912A000B96BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F962044E208912A000B96BD8 /* Build configuration list for PBXNativeTarget "HappyMeals2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F962044F208912A000B96BD8 /* Debug */,
+				F9620450208912A000B96BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9620451208912A000B96BD8 /* Build configuration list for PBXNativeTarget "HappyMeals2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9620452208912A000B96BD8 /* Debug */,
+				F9620453208912A000B96BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9620454208912A000B96BD8 /* Build configuration list for PBXNativeTarget "HappyMeals2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9620455208912A000B96BD8 /* Debug */,
+				F9620456208912A000B96BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F962041C2089129E00B96BD8 /* Project object */;
+}
